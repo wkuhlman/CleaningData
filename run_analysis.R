@@ -58,4 +58,4 @@ summarizedData <- summarize_all(groupedData,funs(mean))
 
 # Write the tidy data to a CSV file
 print("writing results to tidyData.csv")
-write.table(summarizedData,file="tidyData.csv", sep=",")
+write.table(summarizedData,file="tidyData.csv", sep=",", row.name=FALSE)
