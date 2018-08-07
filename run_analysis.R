@@ -9,7 +9,7 @@
 ## - Summarizes data by subject and activity
 ## - Writes the resulting table to a CSV file
 
-## Usage:  source("do_analysis.R")
+## Usage:  source("run_analysis.R")
 ## Script must be run in the "UCI HAR Dataset" directory of the unzipped dataset
 
 ## Download and extract the raw data (beware: this takes up >200 MB of disk space)
