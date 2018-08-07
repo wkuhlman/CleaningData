@@ -3,11 +3,11 @@
 
 The files in this repository are a tidy summary of the UCI HAR Dataset, including the script used to generate the summary and a codebook that explains what's in the file.
 
-This repository contains 3 files (not including this README): do_anaysis.R, tidyData.csv, and codebook.md.
+This repository contains 3 files (not including this README): run_anaysis.R, tidyData.csv, and codebook.md.
 
 The file codebook.md describes the variables and calculated summaries.
 
-The file tidyData.csv is a tidy data set output by do_analysis.R
+The file tidyData.csv is a tidy data set output by run_analysis.R
 
 The script do_analyis.R analyzes the data as follows:
 - Merges data from the "test" and "train" directories
@@ -18,6 +18,6 @@ The script do_analyis.R analyzes the data as follows:
 - Writes the resulting table to a CSV file
 
 To run the script:
-> source("do_analysis.R")
+> source("run_analysis.R")
 
 Note: the files are large. Be sure you have a fast internet connection and at least 300 MB of disk space.
